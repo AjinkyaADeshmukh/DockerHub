@@ -28,11 +28,9 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+	
 	<build>
- <finalName>java-jenkins-docker</finalName>
- </build>
-	<build>
-		
+		<finalName>java-jenkins-docker</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
